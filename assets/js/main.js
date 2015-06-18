@@ -9,7 +9,7 @@ $(document).ready(function(){
 var load_font = function(url){
 	url = 'https://' + url;
 	$.post(url,function(){
-		$('header .title').html(url.substring(url.lastIndexOf('/')+1) || 'Arial (default)');
+		$('header .title').html(url.substring(url.lastIndexOf('/')+1));
 		$('head > style#fontLoader').html("\
 			@font-face {\
 				font-family: 'fromURL';\
