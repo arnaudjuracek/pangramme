@@ -21,42 +21,12 @@
 	<body>
 		<div class="wrapper">
 			<header><span title="charger une font" class="upload easing">+</span><span class="title">Arial</span></header>
-		 	<h1>
-		 		<div contentEditable class="easing">
-		 			<?php echo $sentence; ?>
-		 			<div class="expand"><?php echo $paragraph; ?></div>
-		 		</div>
-		 	</h1>
-		 	<h2>
-		 		<div contentEditable class="easing">
-		 			<?php echo $sentence; ?>
-		 			<div class="expand"><?php echo $paragraph; ?></div>
-		 		</div>
-		 	</h2>
-		 	<h3>
-		 		<div contentEditable class="easing">
-		 			<?php echo $sentence; ?>
-		 			<div class="expand"><?php echo $paragraph; ?></div>
-		 		</div>
-		 	</h3>
-		 	<h4>
-		 		<div contentEditable class="easing">
-		 			<?php echo $sentence; ?>
-		 			<div class="expand"><?php echo $paragraph; ?></div>
-		 		</div>
-		 	</h3>
-		 	<h5>
-		 		<div contentEditable class="easing">
-		 			<?php echo $sentence; ?>
-		 			<div class="expand"><?php echo $paragraph; ?></div>
-		 		</div>
-		 	</h3>
-		 	<h6>
-		 		<div contentEditable class="easing">
-		 			<?php echo $sentence; ?>
-		 			<div class="expand"><?php echo $paragraph; ?></div>
-		 		</div>
-		 	</h3>
+		 	<h1><div contentEditable class="easing"><?php echo $sentence; ?><div class="expand"><?php echo $paragraph; ?></div></div></h1>
+		 	<h2><div contentEditable class="easing"><?php echo $sentence; ?><div class="expand"><?php echo $paragraph; ?></div></div></h2>
+		 	<h3><div contentEditable class="easing"><?php echo $sentence; ?><div class="expand"><?php echo $paragraph; ?></div></div></h3>
+		 	<h4><div contentEditable class="easing"><?php echo $sentence; ?><div class="expand"><?php echo $paragraph; ?></div></div></h3>
+		 	<h5><div contentEditable class="easing"><?php echo $sentence; ?><div class="expand"><?php echo $paragraph; ?></div></div></h3>
+		 	<h6><div contentEditable class="easing"><?php echo $sentence; ?><div class="expand"><?php echo $paragraph; ?></div></div></h3>
 		</div>
 	</body>
 </html>
