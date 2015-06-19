@@ -21,12 +21,16 @@
 	<body>
 		<div class="wrapper">
 			<header><span title="charger une font" class="upload easing">+</span><span class="title">Arial</span></header>
-		 	<h1><div contentEditable class="easing"><?php echo $sentence; ?><div class="expand"><?php echo $paragraph; ?></div></div></h1>
-		 	<h2><div contentEditable class="easing"><?php echo $sentence; ?><div class="expand"><?php echo $paragraph; ?></div></div></h2>
-		 	<h3><div contentEditable class="easing"><?php echo $sentence; ?><div class="expand"><?php echo $paragraph; ?></div></div></h3>
-		 	<h4><div contentEditable class="easing"><?php echo $sentence; ?><div class="expand"><?php echo $paragraph; ?></div></div></h3>
-		 	<h5><div contentEditable class="easing"><?php echo $sentence; ?><div class="expand"><?php echo $paragraph; ?></div></div></h3>
-		 	<h6><div contentEditable class="easing"><?php echo $sentence; ?><div class="expand"><?php echo $paragraph; ?></div></div></h3>
+		 	<div class="s0"><div contentEditable class="easing"><?php echo $sentence; ?><div class="expand"><?php echo $paragraph; ?></div></div></div>
+		 	<div class="s1"><div contentEditable class="easing"><?php echo $sentence; ?><div class="expand"><?php echo $paragraph; ?></div></div></div>
+		 	<div class="s2"><div contentEditable class="easing"><?php echo $sentence; ?><div class="expand"><?php echo $paragraph; ?></div></div></div>
+		 	<div class="s3"><div contentEditable class="easing"><?php echo $sentence; ?><div class="expand"><?php echo $paragraph; ?></div></div></div>
+		 	<div class="s4"><div contentEditable class="easing"><?php echo $sentence; ?><div class="expand"><?php echo $paragraph; ?></div></div></div>
+		 	<div class="s5"><div contentEditable class="easing"><?php echo $sentence; ?><div class="expand"><?php echo $paragraph; ?></div></div></div>
+		 	<div class="s6"><div contentEditable class="easing"><?php echo $sentence; ?><div class="expand"><?php echo $paragraph; ?></div></div></div>
+		 	<div class="s7"><div contentEditable class="easing"><?php echo $sentence; ?><div class="expand"><?php echo $paragraph; ?></div></div></div>
+		 	<div class="s8"><div contentEditable class="easing"><?php echo $sentence; ?><div class="expand"><?php echo $paragraph; ?></div></div></div>
+		 	<div class="s9"><div contentEditable class="easing"><?php echo $sentence; ?><div class="expand"><?php echo $paragraph; ?></div></div></div>
 		</div>
 	</body>
 </html>
