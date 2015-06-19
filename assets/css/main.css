@@ -8,6 +8,15 @@ body{
 	font-family: 'fromURL', Arial;
 	}
 
+::selection{
+	color: #FFF;
+	background: rgb(238, 66, 87);
+	}
+::-moz-selection{
+	color: #FFF;
+	background: rgb(238, 66, 87);
+	}
+
 /*-----------------------------------------------------------------------*/
 
 .s0{ font-size: 32px; font-weight: normal;}
