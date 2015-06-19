@@ -56,47 +56,70 @@ body{
 				color: rgb(46, 204, 113);
 				}
 
-	.wrapper div[contentEditable]{
-		margin-left: 100px;
+	.wrapper .sentences{}
+		.wrapper .sentences div[contentEditable]{
+			margin-left: 100px;
+			margin-top: 2em;
+			font-weight: normal;
+			line-height: 1.2em;
+			outline: none;
+			}
+			div[contentEditable]:focus{
+				color: rgba(0,0,0, .3);
+				}
+			.wrapper .sentences div[contentEditable] div.expand{
+				display: none;
+				}
+
+		.wrapper .sentences aside.toolbox{
+			float: left;
+			text-align: right;
+			margin-top: -2em;
+			padding: 0 0 .5em 30px;
+			clear: both;
+
+			font-family: arial;
+			font-weight: bold;
+			font-size: 12px;
+			color: rgba(0,0,0, .5);
+			border-bottom: 2px solid rgba(0,0,0, .5);
+			}
+			aside.toolbox:hover{
+				cursor: pointer;
+				border-width: 5px;
+				}
+			aside.toolbox.expand{ border-width: 2px; }
+
+		.wrapper .sentences > div:hover aside.toolbox{
+			color: rgba(0,0,0, .9);
+			border-color: rgb(46, 204, 113);
+			}
+
+	.wrapper .glyphs{
+		/*margin-left: 100px;*/
 		margin-top: 2em;
-		font-weight: normal;
-		line-height: 1.2em;
-		outline: none;
+		padding-bottom: 2em;
 		}
-		div[contentEditable]:focus{
-			color: rgba(0,0,0, .3);
+		.wrapper .glyphs > span{
+			display: inline-block;
+			/*float*/: left;
+			width: 1.5em;
+			height: 2em;
+			margin-top: .5em;
+			margin-right: .25em;
+
+			border-bottom: 2px solid rgba(0,0,0, .5);
+			text-align: center;
+			font-size: 32px;
 			}
-		.wrapper div[contentEditable] div.expand{
-			display: none;
-			}
-
-
-	.wrapper aside.toolbox{
-		float: left;
-		text-align: right;
-		margin-top: -2em;
-		padding: 0 0 .5em 30px;
-		clear: both;
-
-		font-family: arial;
-		font-weight: bold;
-		font-size: 12px;
-		color: rgba(0,0,0, .5);
-		border-bottom: 2px solid rgba(0,0,0, .5);
-		}
-		aside.toolbox:hover{
-			cursor: pointer;
-			border-width: 5px;
-			}
-		aside.toolbox.expand{
-			border-width: 2px;
-			}
-
-
-	*:hover > aside.toolbox{
-		color: rgba(0,0,0, .9);
-		border-color: rgb(46, 204, 113);
-		}
+			.wrapper .glyphs aside.value{
+				text-align: right;
+				font-family: Arial;
+				font-size: 12px;
+				color: rgba(0,0,0, .5);
+				}
+		.wrapper .glyphs > span:hover{ border-color: rgb(46, 204, 113); }
+		.wrapper .glyphs > span:hover aside.value{ color: rgba(0,0,0, .9); }
 
 
 /*-----------------------------------------------------------------------*/
