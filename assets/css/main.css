@@ -96,13 +96,11 @@ body{
 			}
 
 	.wrapper .glyphs{
-		/*margin-left: 100px;*/
-		margin-top: 2em;
+		margin-top: 4em;
 		padding-bottom: 2em;
 		}
 		.wrapper .glyphs > span{
 			display: inline-block;
-			/*float*/: left;
 			width: 1.5em;
 			height: 2em;
 			margin-top: .5em;
