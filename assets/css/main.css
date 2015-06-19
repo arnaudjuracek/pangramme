@@ -112,7 +112,8 @@ body{
 			}
 			.wrapper .glyphs aside.value{
 				text-align: right;
-				font-family: Arial;
+				font-family: arial;
+				font-weight: bold;
 				font-size: 12px;
 				color: rgba(0,0,0, .5);
 				}
