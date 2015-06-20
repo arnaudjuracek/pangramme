@@ -1,3 +1,2 @@
 # Pangramme
-
-Test de webfont avec upload depuis Dropbox.
+Webfonts tester via Dropbox
