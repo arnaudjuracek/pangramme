@@ -15,7 +15,10 @@
 			<script src="assets/js/main.js"></script>
 	</head>
 	<body class="easing-long">
-		<div title="négatif" class="button invert easing">&#8226;</div>
+		<div title="négatif" class="button invert">
+			<span class="black easing-long">&#8226;</span>
+			<span class="white easing-long">&#8226;</span>
+		</div>
 		<div class="wrapper">
 			<header>
 				<span title="charger une font" class="button upload easing">+</span>
