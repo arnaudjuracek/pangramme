@@ -14,9 +14,12 @@
 		<script src="assets/js/class/font_tester.js"></script>
 			<script src="assets/js/main.js"></script>
 	</head>
-	<body>
+	<body class="easing-long">
+		<div title="négatif" class="button invert easing">&#8226;</div>
 		<div class="wrapper">
-			<header><span title="charger une font" class="upload easing">+</span><span class="title">Arial</span></header>
+			<header>
+				<span title="charger une font" class="button upload easing">+</span>
+				<span class="title">Arial</span></header>
 		 	<div class="sentences">
 		 		<?php
 					$sentence = "Grumpy wizards make toxic brew for the evil Queen and Jack.";

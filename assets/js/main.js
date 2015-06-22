@@ -1,9 +1,12 @@
 $(document).ready(function(){
 	var font_url = document.location.hash.split('#').pop();
-		// console.log(font_url);
 		load_font(font_url);
-		$("header").fitText();
+		$('header').fitText();
 	window.font_tester = new font_tester($('header .upload'));
+
+	$('.button.invert').on('click',function(){
+		$('body').toggleClass('invert');
+	})
 });
 
 var load_font = function(url){
