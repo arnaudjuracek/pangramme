@@ -34,9 +34,9 @@ body.invert{
 	.button span{ margin-right: -15px; }
 	.button .black{ color: #000; }
 	.button .white{ color: #FFF; }
-	.button:hover *,
-	body:not(.invert) .button .white,
-	body.invert .button .black{ color: rgb(238, 66, 87); }
+	.button:hover,
+	body:not(.invert) .button:hover .white,
+	body.invert .button:hover .black{ color: rgb(238, 66, 87); }
 
 /*-----------------------------------------------------------------------*/
 
