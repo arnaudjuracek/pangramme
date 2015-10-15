@@ -42,6 +42,9 @@
 		 			}
 		 		?>
 		 	</div>
+		 	<div class="footer">
+		 		<a href="https://github.com/arnaudjuracek/webfont-pangramme">github.com/arnaudjuracek/webfont-pangramme</a>
+		 	</div>
 		 </div>
 	</body>
 </html>

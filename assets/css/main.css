@@ -141,6 +141,17 @@ i.fa{
 		body .wrapper .glyphs > span:hover aside.value{ color: rgba(0,0,0, .9); }
 		body.invert .wrapper .glyphs > span:hover aside.value{ color: rgba(255,255,255, 9); }
 
+	.wrapper .footer{
+		margin-top: 50px;
+		margin-bottom: 20px;
+		}
+		.wrapper .footer a{
+			text-decoration: none;
+			color: rgba(0, 0, 0, .3);
+			}
+			.wrapper .footer a:hover{ color: #333; }
+			body.invert .wrapper .footer a{ color: rgba(255, 255, 255, .3); }
+			body.invert .wrapper .footer a:hover{ color: #FFF; }
 
 /*-----------------------------------------------------------------------*/
 .easing{
