@@ -28,7 +28,7 @@
 			</div>
 		 	<div class="sentences">
 		 		<?php
-					$sentence = "Grumpy wizards make toxic brew for the evil Queen and Jack.";
+					$sentence = "Grumpy wizards make toxic brew for the evil Queen and Jack. ";
 					$paragraph = "One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin. He lay on his armour-like back, and if he lifted his head a little he could see his brown belly, slightly domed and divided by arches into stiff sections. The bedding was hardly able to cover it and seemed ready to slide off any moment. His many legs, pitifully thin compared with the size of the rest of him, waved about helplessly as he looked. One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin. He lay on his armour-like back, and if he lifted his head a little he could see his brown belly, slightly domed and divided by arches into stiff sections. The bedding was hardly able to cover it and seemed ready to slide off any moment. His many legs, pitifully thin compared with the size of the rest of him, waved about helplessly as he looked.";
 
 		 			for($i=0;$i<11; $i++) echo '<div class="s'.$i.'"><div contentEditable class="easing">'.$sentence. $paragraph.'</div></div>';
