@@ -24,7 +24,7 @@
 				<i title="barrer le texte" class="fa fa-strikethrough easing" data-action="strikethrough"></i>
 				<i title="souligner le texte" class="fa fa-underline easing" data-action="underline"></i>
 				<i title="inverser les couleurs" class="fa fa-adjust easing" data-action="invert"></i>
-				<i title="charger depuis Dropbox" class="fa fa-dropbox easing" data-action="upload"></i>
+				<i title="charger depuis Dropbox" class="fa fa-dropbox easing" data-action="upload"><span>charger une fonte</span></i>
 			</div>
 		 	<div class="sentences">
 		 		<?php

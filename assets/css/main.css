@@ -27,10 +27,18 @@ i.fa{
 	font-size: 20px;
 	float: right;
 	}
+	i.fa span{
+		display: inline-block;
+		vertical-align: middle;
+		margin-left: .25em;
+		opacity: .7;
+		font-size: 14px;
+	}
 	i.fa:hover{
 		cursor: pointer;
 		color: rgb(238, 66, 87);
 		}
+
 
 /*-----------------------------------------------------------------------*/
 
