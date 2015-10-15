@@ -1,2 +1,8 @@
 # Pangramme
-Webfonts tester via Dropbox
+Webfonts tester with Dropbox upload
+
+## Authors
+Arnaud Juracek
+
+## License
+MIT
