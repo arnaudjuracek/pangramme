@@ -6,12 +6,19 @@ var font_tester = function(button){
 		self.elem.each(function(){
 
 			var t = $(this);
-			t.toolbox();
+			t.measurement();
 
 			t.parent().find('aside').on('click', function(){
 				$(this).toggleClass('expand');
-				t.find('.expand').slideToggle();
+				t.toggleClass('expand');
 			});
+		});
+	},
+
+	this.bind_change = function(){
+		console.log('foo');
+		self.elem.on('keyup keydown keypress;', function(){
+			self.elem.html($(this).html());
 		});
 	},
 
@@ -56,16 +63,14 @@ var font_tester = function(button){
 
 	this.init();
 	this.bind_upload();
+	this.bind_change();
 }
 
-jQuery.fn.toolbox = function(){
-	var elem = $('<aside class="toolbox easing"></aside>');
-		// elem.append('<span class="button size-less">-</span>');
-		elem.append('<span class="size">'+ parseInt( this.css('font-size') ) +'px</span>');
-		// elem.append('<span class="button size-plus">+</span>');
-
-		// elem.append('<div class="size">'+ parseInt( this.css('letter-spacing') ) +'px</div>');
-		// elem.append('<div class="size">'+ parseInt( this.css('line-height') ) +'px</div>');
+jQuery.fn.measurement = function(){
+	var elem = $('<aside class="measurement easing"></aside>');
+	var size = parseInt(this.css('font-size')) + 'px';
+	if(size.length === 3) size = '\xa0' + size;
+	elem.append('<span class="size">'+ size +'</span>');
 
 	this.parent().append(elem);
 	return this;

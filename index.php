@@ -6,6 +6,7 @@
 		<meta name="description" content="">
 			<meta name="author" content="Arnaud Juracek">
 			<title>Pangramme</title>
+		<link rel="stylesheet" type="text/css" href="assets/css/font-awesome.min.css" media="screen" />
 		<link rel="stylesheet" type="text/css" href="assets/css/main.css" media="screen" />
 			<style id="fontLoader" type='text/css'/></style>
 		<script type="text/javascript" src="https://www.dropbox.com/static/api/2/dropins.js" id="dropboxjs" data-app-key="mih4vu60by4jua0"></script>
@@ -15,20 +16,22 @@
 			<script src="assets/js/main.js"></script>
 	</head>
 	<body class="easing-long">
-		<div title="négatif" class="button invert">
-			<span class="black easing-long">&#8226;</span>
-			<span class="white easing-long">&#8226;</span>
-		</div>
 		<div class="wrapper">
 			<header>
-				<span title="charger une font" class="button upload easing">+</span>
-				<span class="title">Arial</span></header>
+				<span class="title">Arial</span>
+			</header>
+			<div class="toolbox">
+				<i title="barrer le texte" class="fa fa-strikethrough easing" data-action="strikethrough"></i>
+				<i title="souligner le texte" class="fa fa-underline easing" data-action="underline"></i>
+				<i title="inverser les couleurs" class="fa fa-adjust easing" data-action="invert"></i>
+				<i title="charger depuis Dropbox" class="fa fa-dropbox easing" data-action="upload"></i>
+			</div>
 		 	<div class="sentences">
 		 		<?php
 					$sentence = "Grumpy wizards make toxic brew for the evil Queen and Jack.";
 					$paragraph = "One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin. He lay on his armour-like back, and if he lifted his head a little he could see his brown belly, slightly domed and divided by arches into stiff sections. The bedding was hardly able to cover it and seemed ready to slide off any moment. His many legs, pitifully thin compared with the size of the rest of him, waved about helplessly as he looked. One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin. He lay on his armour-like back, and if he lifted his head a little he could see his brown belly, slightly domed and divided by arches into stiff sections. The bedding was hardly able to cover it and seemed ready to slide off any moment. His many legs, pitifully thin compared with the size of the rest of him, waved about helplessly as he looked.";
 
-		 			for($i=0;$i<9; $i++) echo '<div class="s'.$i.'"><div contentEditable class="easing">'.$sentence.'<div class="expand">'.$paragraph.'</div></div></div>';
+		 			for($i=0;$i<11; $i++) echo '<div class="s'.$i.'"><div contentEditable class="easing">'.$sentence. $paragraph.'</div></div>';
 		 		?>
 		 	</div>
 		 	<div class="glyphs">

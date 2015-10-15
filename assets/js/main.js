@@ -2,11 +2,21 @@ $(document).ready(function(){
 	var font_url = document.location.hash.split('#').pop();
 		load_font(font_url);
 		$('header').fitText();
-	window.font_tester = new font_tester($('header .upload'));
+	window.font_tester = new font_tester($('i[data-action="upload"]'));
 
-	$('.button.invert').on('click',function(){
+	$('i[data-action="invert"]').on('click',function(){
 		$('body').toggleClass('invert');
-	})
+	});
+
+	$('i[data-action="underline"]').on('click',function(){
+		$('body').toggleClass('underline');
+	});
+
+	$('i[data-action="strikethrough"]').on('click',function(){
+		$('body').toggleClass('strikethrough');
+	});
+
+
 });
 
 var load_font = function(url){
