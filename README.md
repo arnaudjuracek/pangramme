@@ -1,8 +1,5 @@
-# Pangramme
-Webfonts tester with Dropbox upload
+## Pangramme
+*Webfonts tester with Dropbox upload :* [http://dev.arnaudjuracek.fr/pangramme/](http://dev.arnaudjuracek.fr/pangramme/)
 
-## Authors
-Arnaud Juracek
-
-## License
-MIT
+---
+**Arnaud Juracek**, `GNU GENERAL PUBLIC LICENSE Version 3, June 2007`
